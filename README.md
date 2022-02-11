@@ -9,17 +9,14 @@ Source code of paper "ActiveEA: Active Learning for Neural Entity Alignment", wh
 from [wiki-news-300d-1M.vec](https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M.vec.zip) 
 and put the unzipped file under `dataset/`.
 Otherwise, skip this step (the size of unzipped word embedding file will be 2.26GB).
-- Step 3: Install conda environment
+- Step 3: Install conda environment:
 ```shell script
 cd /path_to_proj/al4ea/
 conda env create -f environment.yml
 ```
-
-- Step 4: Configure settings.
-The scripts to run are under `scripts/run_strategies/`
+- Step 4: Configure settings:
+The scripts to run are under `scripts/run_strategies/`.
 The default settings are set in `task_settings.sh`. Before you run any script, set `proj_dir` in the setting file firstly. 
-
-
 - Step 5: Run scripts:
     * For trials: customizing script `task_runner_trial.sh`.
     * Run experiments about the "overall performance on 15K data": `task_runner_overall_perf.sh`.
@@ -35,4 +32,6 @@ The evaluation results on test set will be saved to `output/results/`.
 ## Acknowledgement
 We implement the neural EA models by customizing source code of [OpenEA](https://github.com/nju-websoft/OpenEA).
 
+
+## Citation
 
