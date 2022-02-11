@@ -34,4 +34,17 @@ We implement the neural EA models by customizing source code of [OpenEA](https:/
 
 
 ## Citation
-
+If you find the code useful, please kindly cite the following [paper](https://aclanthology.org/2021.emnlp-main.270/):
+```
+@inproceedings{ActiveEA,
+  title={{A}ctive{EA}: Active Learning for Neural Entity Alignment},
+  author={Liu, Bing and Scells, Harrisen and Zuccon, Guido and Hua, Wen and Zhao, Genghong},
+  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processin},
+  year={2021},
+  address={Online and Punta Cana, Dominican Republic},
+  publisher={Association for Computational Linguistics},
+  url={https://aclanthology.org/2021.emnlp-main.270},
+  doi={10.18653/v1/2021.emnlp-main.270},
+  pages={3364--3374}
+}
+```
